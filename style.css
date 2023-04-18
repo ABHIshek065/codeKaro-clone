@@ -37,6 +37,7 @@ nav {
   right: 0;
   font-size: 22px;
   padding: 8px 28px;
+
 }
 
 nav img {
@@ -314,6 +315,7 @@ footer .icon li {
     .links{
       display: flex;
       align-items: center;
+
     }
     #home .btn {
       padding: 16px 54px;
