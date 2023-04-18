@@ -37,7 +37,7 @@ nav {
   right: 0;
   font-size: 22px;
   padding: 8px 28px;
-
+cursor: pointer;
 }
 
 nav img {
@@ -77,6 +77,39 @@ nav .navigation ul li a:hover {
   color: #088178;
   border-bottom: 2px solid #088178;
 }
+
+
+/* .sub-menu-details{
+  position: absolute;
+  top: 100%;
+  right: 5%;
+  width: 260px;
+}
+
+.submenu{
+  padding: 20px;
+  margin: 10px;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+}
+.user-info h3{
+  font-weight: 500;
+}
+
+.user-info img{
+  margin-right: 15px;
+}
+
+.submenu hr{
+  border: 0;
+  background-color: lightgray;
+  height: 1px;
+  width: 100%;
+  margin: 15px 0 10px ;
+} */
 
 #home {
   text-align: center;
@@ -144,9 +177,7 @@ nav .navigation ul li a:hover {
 
 @keyframes card-animation {
   100%{
-    width: 430px;
-    border-radius: 12px;
-    transform: rotate(4deg);
+    transform: rotate(-2deg);
   }
 }
 
@@ -178,9 +209,9 @@ nav .navigation ul li a:hover {
 
 @keyframes comments-animation {
   100%{
-    width: 360px;
+    /* width: 360px;
     border: 1px solid black;
-    font-weight: bold;
+    font-weight: bold; */
   }
 }
 
@@ -207,13 +238,18 @@ nav .navigation ul li a:hover {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 25px 0;
+}
+
+.highlight{
+  background-color:beige ;
 }
 
 #student .card-s {
   border: 1px solid lightgrey;
   width: 350px;
   padding: 23px;
-  margin: 45px;
+  margin: 10px;
   text-align: center;
   line-height: 39px;
   border-radius: 8px;
@@ -229,6 +265,7 @@ nav .navigation ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 #student .flex p {
